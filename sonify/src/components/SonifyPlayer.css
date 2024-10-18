@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #282828;
+  border-bottom: none;
+}
+
+.card-title {
+  color: #1db954; /* Spotify green */
+  font-weight: bold;
+}
+
+.text-muted {
+  color: #b3b3b3;
+}
+
+.font-weight-bold {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #1db954; /* Spotify green */
+  color: #ffffff;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1ed760;
+}
+
+button[disabled] {
+  background-color: #555555; /* Disabled state */
+  cursor: not-allowed;
+}
+
+.spinner-border {
+  color: #ffffff;
+}
+
+.alert {
+  background-color: #1c1c1c;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.alert-success {
+  color: #1db954;
+}
+
+.alert-danger {
+  color: #ff4c4c;
+}

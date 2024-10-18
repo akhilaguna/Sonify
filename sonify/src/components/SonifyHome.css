@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #121212; /* Spotify dark theme */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.min-vh-100 {
+  background-color: #121212;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #282828;
+  border-bottom: none;
+}
+
+.card-title {
+  color: #1db954; /* Spotify green */
+  font-weight: bold;
+}
+
+.text-center {
+  color: #b3b3b3; /* Lighter text color */
+}
+
+p {
+  color: #b3b3b3;
+}
+
+button {
+  background-color: #1db954; /* Spotify green */
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1ed760; /* Lighter Spotify green on hover */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1db954;
+}
+
+button:active {
+  background-color: #1db954;
+}
+
+button[variant='outline'] {
+  background-color: transparent;
+  color: #1db954;
+  border: 2px solid #1db954;
+}
+
+button[variant='outline']:hover {
+  background-color: #1db954;
+  color: #ffffff;
+}
+
+button[variant='outline']:active {
+  background-color: #1db954;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
