@@ -46,14 +46,14 @@ Create a `.env` file in both the `frontend` and `backend` directories with the n
    git clone https://github.com/your-username/sonify.git
 
 2. **Install Python Requirements**:
-   cd FastAPI
+   cd FastAPI  
    pip install -r requirements.txt
 
 3. **Run the FastAPI App**:
    uvicorn sonify:app --reload
 
 4. **npm intall**:
-   cd ../sonify
+   cd ../sonify  
    npm install
 
 5. **Run the React App**
