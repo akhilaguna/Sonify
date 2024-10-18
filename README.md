@@ -36,6 +36,10 @@ Sonify is a web application that provides personalized music recommendations by 
 - **Spotify Developer Account** to register your app and obtain client credentials
 - **API Keys** for OpenWeatherMap and OpenAI
 
+## Set Up Environment Variables
+
+Create a `.env` file in both the `frontend` and `backend` directories with the necessary API keys and Spotify credentials.
+
 ## Getting Started
 
 1. **Clone the Repository**:
